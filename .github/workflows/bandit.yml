@@ -11,9 +11,9 @@ on:
 jobs:
   bandit:
     permissions:
-      contents: read      # For actions/checkout to fetch code
+      contents: read
       security-events: write
-      actions: read       # Required only for private repos to get Action run status
+      actions: read
 
     runs-on: ubuntu-latest
 
